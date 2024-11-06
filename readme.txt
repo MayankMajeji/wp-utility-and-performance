@@ -4,7 +4,7 @@ Tags: performance, optimize, security, utility, pagespeed, speed
 Requires at least: 4.0
 Tested up to: 5.3.2
 Requires PHP: 5.2
-Stable tag: 1.0.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -96,3 +96,6 @@ Mayank Majeji
 = 1.0.1 =
 * Bugs Fixed
 * Readme File Spelling Corrected
+
+= 1.1 =
+* Escaped output to enhance security. 
