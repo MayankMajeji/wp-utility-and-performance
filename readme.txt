@@ -1,10 +1,10 @@
 === WP Utility and Performance ===
 Contributors: mayankmajeji, ThemeMantis
-Tags: performance, optimize, security, utility, pagespeed, speed
+Tags: performance, optimize, security, utility, pagespeed
 Requires at least: 4.0
-Tested up to: 5.3.2
+Tested up to: 6.5
 Requires PHP: 5.2
-Stable tag: 1.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,13 +42,13 @@ This plugin is created by <a href="https://mayankmajeji.com/" rel="friend" title
 
 If you find this plugin useful to optimize and speed up your WordPress website, then please leave a good rating. Your feedback will motivate us for good work. 
 
-To learn more about WordPress, SEO and Blogging, you can also visit <a href="http://themaverickspirit.com/" rel="friend" title="TheMaverickSpirit">TheMaverickSpirit</a> for tutorials and guides on topics like:
+To learn more about WordPress, SEO and Blogging, you can also visit <a href="http://unmaskwp.com/" rel="friend" title="UnmaskWP">UnmaskWP</a> for tutorials and guides on topics like:
 
-* <a href="https://themaverickspirit.com/cheap-email-marketing-services/" rel="friend" title="Cheap Email Marketing Services">Cheap Email Marketing Services</a>
-* <a href="https://themaverickspirit.com/high-domain-authority-dofollow-backlinks-website-lists-bloggers/" rel="friend" title="List of High DA PA Websites">List of High DA PA Websites</a>
-* <a href="https://themaverickspirit.com/best-amazon-affiliate-wordpress-themes/" rel="friend" title="Amazon Affiliate WordPress Themes">Amazon Affiliate WordPress Themes</a>
+* <a href="https://unmaskwp.com/snippets/" rel="friend" title="WordPress Code Snippets Library">WordPress Code Snippets Library</a>
+* <a href="https://unmaskwp.com/how-to-start-an-online-store/" rel="friend" title="[2024] How to Start an Online Store? (Step by Step)">[2024] How to Start an Online Store? (Step by Step)</a>
+* <a href="https://unmaskwp.com/connect-domain-name-to-web-hosting-service/" rel="friend" title="How to Connect Domain Name with Web Hosting Service? (Step-by-step)">How to Connect Domain Name with Web Hosting Service? (Step-by-step)</a>
 
-...and many more <a href="https://themaverickspirit.com/category/wordpress-tutorials/" rel="friend" title="WordPress Tutorials">WordPress tutorials</a>.
+...and many more <a href="https://unmaskwp.com/blog/" rel="friend" title="WordPress Tutorials">WordPress tutorials</a>.
 
 == Installation ==
 
@@ -98,4 +98,8 @@ Mayank Majeji
 * Readme File Spelling Corrected
 
 = 1.1 =
-* Escaped output to enhance security. 
+* Escaped output to enhance security
+
+= 1.1.1 =
+* Tested upto WordPress 6.5
+* Removed extra tags
