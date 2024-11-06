@@ -1,10 +1,10 @@
 === WP Utility and Performance ===
 Contributors: mayankmajeji, ThemeMantis
-Tags: performance, optimization, security, utility, pagespeed
+Tags: performance, optimize, security, utility, pagespeed, speed
 Requires at least: 4.0
-Tested up to: 6.5.3
+Tested up to: 5.3.2
 Requires PHP: 5.2
-Stable tag: 1.0
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,7 +26,7 @@ WPUP not only lets you control these assets but also helps you in reducing bounc
 * User friendly dashboard interface
 * Quick-toggle options
 * <strong>Lightweight</strong> and bloat-free code (No JavaScript on the front-end of your website)
-* Enable/disable unused and unnecessary CSS and JS files (<strong>Dashicons, Emojis, WP Enbeds</strong>, etc.)
+* Enable/disable unused and unnecessary CSS and JS files (<strong>Dashicons, Emojis, WP Embeds</strong>, etc.)
 * Hide <strong>WordPress Version</strong> from the frontend to improve security
 * Add/Remove <strong>XML-RPC, RSD Link, WLW Manifest and Shortlink</strong> meta tags from the frontend
 * Enable/Disable <strong>RSS feeds</strong>
@@ -42,17 +42,17 @@ This plugin is created by <a href="https://mayankmajeji.com/" rel="friend" title
 
 If you find this plugin useful to optimize and speed up your WordPress website, then please leave a good rating. Your feedback will motivate us for good work. 
 
-To learn more about WordPress, SEO and Blogging, you can also visit <a href="http://unmaskwp.com/" rel="friend" title="UnmaskWP">UnmaskWP</a> for tutorials and guides on topics like:
+To learn more about WordPress, SEO and Blogging, you can also visit <a href="http://themaverickspirit.com/" rel="friend" title="TheMaverickSpirit">TheMaverickSpirit</a> for tutorials and guides on topics like:
 
-* <a href="https://unmaskwp.com/snippets/" rel="friend" title="WordPress Code Snippets Library">WordPress Code Snippets Library</a>
-* <a href="https://unmaskwp.com/how-to-start-an-online-store/" rel="friend" title="[2024] How to Start an Online Store? (Step by Step)">[2024] How to Start an Online Store? (Step by Step)</a>
-* <a href="https://unmaskwp.com/connect-domain-name-to-web-hosting-service/" rel="friend" title="How to Connect Domain Name with Web Hosting Service? (Step-by-step)">How to Connect Domain Name with Web Hosting Service? (Step-by-step)</a>
+* <a href="https://themaverickspirit.com/cheap-email-marketing-services/" rel="friend" title="Cheap Email Marketing Services">Cheap Email Marketing Services</a>
+* <a href="https://themaverickspirit.com/high-domain-authority-dofollow-backlinks-website-lists-bloggers/" rel="friend" title="List of High DA PA Websites">List of High DA PA Websites</a>
+* <a href="https://themaverickspirit.com/best-amazon-affiliate-wordpress-themes/" rel="friend" title="Amazon Affiliate WordPress Themes">Amazon Affiliate WordPress Themes</a>
 
-...and many more <a href="https://unmaskwp.com/blog/" rel="friend" title="WordPress Tutorials">WordPress tutorials</a>.
+...and many more <a href="https://themaverickspirit.com/category/wordpress-tutorials/" rel="friend" title="WordPress Tutorials">WordPress tutorials</a>.
 
 == Installation ==
 
-1. Install WP Utility and Performance plugin by uploading the `wp-utility-and-performance` directory to the `/wp-content/plugins/` directory.
+1. Install WP Utility and Performance plugin by uploading the `wp-utility-and-performance` directory to the `/wp-content/plugins/` directory. (See instructions on <a href="https://themaverickspirit.com/install-wordpress-plugin/" rel="friend">how to install a WordPress plugin</a>.)
 2. Activate WP Utility & Performance through the `Plugins` menu in WordPress.
 3. Enable/Disable Options from `Settings > WP Utility & Performance` menu.
 
@@ -94,4 +94,5 @@ Mayank Majeji
 * Initial version
 
 = 1.0.1 =
-* Tested with WordPress v6.5.3
+* Bugs Fixed
+* Readme File Spelling Corrected

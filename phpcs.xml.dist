@@ -58,7 +58,7 @@
 	<!-- Custom rule properties -->
 	<rule ref="WordPress.WP.I18n">
 		<properties>
-			<property name="text_domain" type="array" value="query-monitor" />
+			<property name="text_domain" type="array" value="wp-utility-and-performance" />
 		</properties>
 	</rule>
 
@@ -76,4 +76,7 @@
 
 	<rule ref="PHPCompatibilityWP"/>
 
+    <!-- Paths to scan -->
+    <!-- <file>./admin/</file> -->
+    <file>./admin</file>
 </ruleset>
