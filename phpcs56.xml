@@ -11,7 +11,7 @@
 
 	<!-- These files must remain compatible with PHP 5.6 to prevent an unwanted fatal error -->
 	<file>./classes/PHP.php</file>
-	<file>./query-monitor.php</file>
+	<file>./class-mantis-wp-utility.php</file>
 	<file>./wp-content/db.php</file>
 
 	<rule ref="PHPCompatibilityWP"/>
