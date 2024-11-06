@@ -3,7 +3,7 @@
 /**
  * Plugin Name: WP Utility and Performance
  * Plugin URI: https://wordpress.org/plugins/wp-utility-and-performance/
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: Mayank Majeji, ThemeMantis
  * Author URI: https://thememantis.com/
  * Description: Allows you to remove unused resources and improve speed and performance of your WordPress website

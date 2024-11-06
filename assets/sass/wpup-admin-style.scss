@@ -1,0 +1,162 @@
+// _variables.scss
+$white: #fff;
+$black: rgba(0, 0, 0, 0.1);
+$light-gray: #f7f7f7;
+$gray-border: #e6e6e6;
+$dark-gray-border: #ccd0d4;
+$light-background: #f8f8f8;
+$green: #4cc57e;
+$black-25: rgba(0, 0, 0, 0.25);
+
+$main-font-family: "Courier New";
+$grid-template-columns: 45% 10%;
+
+// styles.scss
+.settings_page_wp-utility-and-performance #wpcontent {
+	padding: 0;
+}
+
+.wpup-page-wrapper {
+	wrap {
+		margin: 0;
+
+		.notice,
+		.media-upload-form div.error,
+		.wrap .notice,
+		.wrap div.error,
+		.wrap div.updated {
+			margin-top: 0;
+		}
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.wpup-page-header {
+	background-color: $white;
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 1px 0 $black;
+}
+
+.wpup-container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+
+	textarea {
+		border-radius: 0;
+		border: 1px solid $dark-gray-border;
+		background: $light-background;
+		font-family: $main-font-family;
+	}
+
+	#poststuff h3 {
+		padding: 12px;
+		background: $light-gray;
+		border-bottom: 1px solid $gray-border;
+	}
+
+	.wpup-clear:before,
+	.wpup-clear:after {
+		content: " ";
+		display: table;
+		&:after {
+			clear: both;
+		}
+	}
+
+	.wpup-row {
+		padding: 10px 0 6px;
+		font-size: 14px;
+		display: grid;
+		grid-template-columns: $grid-template-columns;
+	}
+
+	.wpup-label label {
+		font-weight: 600;
+	}
+}
+
+.wpup-flex-box {
+	-js-display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.wpup-logo-wrapper a {
+	display: flex;
+	align-items: center;
+}
+
+.wpup-list {
+	padding-left: 18px;
+	li {
+		font-size: 13px;
+		line-height: 1.5;
+		margin: 1em 0;
+		list-style: square;
+	}
+}
+
+.wpup-switch-toggle {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	background-color: $black-25;
+	border-radius: 20px;
+	transition: all 0.3s;
+	cursor: pointer;
+
+	&::before {
+		content: "";
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		border-radius: 50%;
+		background-color: $white;
+		top: 2px;
+		left: 2px;
+		transition: all 0.3s;
+	}
+}
+
+.wpup-switch-checkbox {
+	display: none !important;
+
+	&:checked + .wpup-switch-toggle::before {
+		left: 20px;
+	}
+
+	&:checked + .wpup-switch-toggle {
+		background-color: $green;
+	}
+}
+
+.wpup-settings {
+	#poststuff .inside {
+		border-bottom: 1px solid #e4e4e4;
+
+		&:last-child {
+			border: none;
+		}
+	}
+
+	.plugin-sidebar ul {
+		padding-left: 17px;
+		li {
+			list-style: square;
+		}
+	}
+}

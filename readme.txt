@@ -4,7 +4,7 @@ Tags: performance, optimize, security, utility, pagespeed
 Requires at least: 4.0
 Tested up to: 6.5
 Requires PHP: 5.2
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,3 +106,7 @@ Mayank Majeji
 
 = 1.1.2 =
 * Updated stable tag
+
+= 1.1.3 =
+* Updated Sidebar content
+* Updated Styles
